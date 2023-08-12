@@ -1,0 +1,40 @@
+.payment-desc {
+  font-size: 20px;
+  text-align: center;
+}
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.payment-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.payment-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.payment-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.payment-btn:hover {
+  background-color: #0069d9;
+}

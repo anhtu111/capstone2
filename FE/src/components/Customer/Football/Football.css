@@ -1,0 +1,132 @@
+* {
+  font-family: akkurat, sans-serif;
+}
+
+.football-box {
+  background-image: url("../../../public/img/banner-container-second.png");
+  background-color: #eaeaea;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+.star-yellow {
+  color: #ff9727;
+}
+
+.club-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.club-details h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.club-details img {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.club-details ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.club-details li {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.club-details button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.club-details button:hover {
+  background-color: #0069d9;
+}
+
+.club-desc {
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+  line-height: 1.5;
+}
+.club-price {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.club-service {
+  width: 65%;
+  font-size: 20px;
+}
+.club-service li {
+  font-size: 20px;
+}
+.club-time {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.facilities-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.facilities-item li {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.facilities-item li div {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.facilities-item li div svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.facilities-item li div span {
+  font-size: 20px;
+}
+
+.club-people {
+  text-align: center;
+}
+
+.club-title {
+  font-size: 30px;
+}
+
+.club-btn {
+  display: flex;
+  margin-top: 10px;
+}

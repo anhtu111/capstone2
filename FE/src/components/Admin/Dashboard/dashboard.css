@@ -1,0 +1,41 @@
+.box__container {
+  display: flex;
+  width: 70%;
+  margin: 0 0 0 350px;
+}
+.box {
+  padding: 40px 10px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 6px 6px 6px rgb(63, 58, 58);
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+}
+.box-1 {
+  background-color: rgb(30, 81, 64);
+}
+.box-2 {
+  background-color: rgb(7, 128, 9);
+}
+.box-3 {
+  background-color: rgb(157, 10, 123);
+}
+.box-4 {
+  background-color: rgb(139, 127, 10);
+}
+.content-box {
+  position: relative;
+  width: max-content;
+  margin: 0 auto;
+}
+.content-box .number {
+  position: absolute;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  margin: 0 auto;
+}

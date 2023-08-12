@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@200;400;600&display=swap");
+
+.container-pricing {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image-main img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tickets {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: 100px; */
+  text-align: center;
+  font-family: "Fjalla One";
+  justify-content: center;
+}
+.tickets-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.tickets img {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.ticket {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 300px;
+  transition: all 0.3s ease-in-out;
+}
+.ticket:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.ticket button {
+  background-color: #a7a7a7;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.ticket button:hover {
+  background-color: #323232;
+}
+.ticket-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-family: "Fjalla One";
+}
+.ticket p {
+  width: 70%;
+  margin: 0 auto;
+  color: black;
+  padding-bottom: 20px;
+  font-size: 14px;
+  text-align: justify;
+  font-family: "Fjalla One";
+}

@@ -1,0 +1,93 @@
+/* Dashboard styles */
+.dashboard {
+  background-image: url("path/to/background-image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.service {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+  background-image: url("../../../public/img/banner-container-second.png");
+  padding-bottom: 50px;
+}
+.service-title {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(20, 19, 19);
+  font-weight: bold;
+}
+/* ClubSelection styles */
+.club-selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.club-box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 300px;
+  transition: all 0.3s ease-in-out;
+}
+
+.club-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.club-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.club-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.club-box button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.club-box button:hover {
+  background-color: #0069d9;
+}
+
+.group-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.group-selection button {
+  background-color: #999; /* Change the background color to gray */
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+.group-selection button:hover {
+  background-color: rgb(
+    52,
+    52,
+    52
+  ); /* Change the background color to a darker gray on hover */
+}

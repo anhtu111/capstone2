@@ -1,0 +1,144 @@
+.table-container {
+  margin-left: 250px;
+  /* float: right; */
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.table-member {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-member th,
+.table-member td {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgb(36, 35, 35);
+}
+
+.table-member th {
+  background-color: #f2f2f2;
+}
+
+.table-member td button {
+  margin: 5px;
+  padding: 6px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.table-member td button:hover {
+  background-color: #0056b3;
+}
+
+.custom-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  max-width: 90%;
+  background-color: #a09c9c;
+  color: #333333;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  animation: modalFadeIn 0.3s ease-in-out;
+}
+@keyframes modalFadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.custom-modal h2 {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.custom-modal input {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.custom-modal button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.custom-modal .btn-cancel {
+  background-color: #cccccc;
+}
+.custom-modal .btn-cancel:hover {
+  background-color: #525050;
+}
+.custom-modal button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.custom-modal button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.custom-modal .modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.custom-modal .modal-actions button {
+  flex: 1;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-add-member {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-add-member:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.image-member {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}

@@ -1,0 +1,52 @@
+.booking-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.booking-description {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.select-div {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+.select-label {
+  margin-right: 0.5rem;
+  font-size: 18px;
+}
+.select-label-year {
+  padding-left: 20px;
+  margin-right: 0.5rem;
+  font-size: 18px;
+}
+.select-box {
+  padding: 0.5rem;
+  font-size: 14px;
+}
+.desc-timeslot {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* 
+ */
+
+.btn-payment {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+.btn-thanh-toan:hover {
+  background-color: #f76f00;
+}
